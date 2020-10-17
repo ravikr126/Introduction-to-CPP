@@ -1,4 +1,5 @@
-/*****************************************************************************
+/*************************************************************
+
 Terms of AP
 Send Feedback
 Write a program to print first x terms of the series 3N + 2 which are not multiples of 4.
@@ -7,7 +8,7 @@ Integer x
 Output format :
 Terms of series (separated by space)
 Constraints :
-1 <= N <= 1,000
+1 <= x <= 1,000
 Sample Input 1 :
 10
 Sample Output 1 :
@@ -16,8 +17,8 @@ Sample Input 2 :
 4
 Sample Output 2 :
 5 11 14 17
-********************************************************************************/
-#include<iostream>
+
+**************************************************************/#include<iostream>
 using namespace std;
 
 int main() {
@@ -26,9 +27,9 @@ int main() {
     cin >> x;
     int i = 1;
     int ans;
-    int n = 1;
+    int count = 1;
     
-    while(n <= x)
+    while(count <= x)
     {
         ans = (3*i) + 2;
         
@@ -41,7 +42,7 @@ int main() {
         {
             cout << ans << " ";
             i++;
-            n++;
+            count++;
         }
     }
  }

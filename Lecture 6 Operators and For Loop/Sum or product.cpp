@@ -1,4 +1,5 @@
-/**************************************************************************
+/*************************************************************
+
 Sum or Product
 Send Feedback
 Write a program that asks the user for a number N and a choice C. And then give them the possibility to choose between computing the sum and computing the product of all integers in the range 1 to N (both inclusive).
@@ -28,7 +29,10 @@ Sample Input 3 :
 4
 Sample Output 3 :
 -1
-**************************/
+
+******************************************************/
+
+
 #include<iostream>
 using namespace std;
 
