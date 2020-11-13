@@ -27,17 +27,26 @@ int main(){
        /*  Read input as specified in the question.
 	* Print output as specified in the question.
 	*/
-      int rows,i,j,k=0;
+    
+      int rows,i=1;
       cin>>rows;
-  for(i=1;i<=rows;i++)
+ 
+      while(i<=rows)
   {
-  for(j=1;j<=i;++j)
-  printf("%d",k+j);
-  ++k;
-  cout<<endl;
-   
+int col=1;
+int value =i;
+
+      while(col<=i){
+      cout<<value;
+              value++;
+col++;
+          }
+     
+     cout<<endl;
+   i++;
     }
   
 }
+
 
 
