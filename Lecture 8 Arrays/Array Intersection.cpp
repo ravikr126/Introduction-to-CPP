@@ -58,60 +58,28 @@ Since, both input arrays have two '2's, the intersection of the arrays also have
 // size2 - size of second array
 #include <algorithm>
 using namespace std;
-
-/*int swapeer(int input[],size)
-{
-      for(int i=0;i<size;i++)
-     {
-         if(input[i]>input[i+1])
-         {
-         swap(input[i],input[i+1]);
-         }
-     }
-    return(input);
-}*/
-void intersection(int input1[], int input2[], int size1, int size2) {
+#include<bits/stdc++.h>
+#include <climits>
+void intersection(int *input1, int *input2, int size1, int size2) {
     /* Don't write main().
      * Don't read input, it is passed as function argument.
      * Print the output and don't return it.
      * Taking input is handled automatically.
      */
-    //int max=0;
-    
-    //swapper(input1,size1);
-    //swapper(input2,size2);
-     //for(int i=0;i<)
-    
-    /*  for(int i=0;i<size1;i++)
+   
+    for(int i=0;i<size1;i++)
     {
         for(int j=0;j<size2;j++)
         {
             if(input1[i]==input2[j])
             {
-                cout<<input1<<endl;
+                cout<<input1[i]<<" ";
+input2[j]=INT_MIN;
+break;
             }
         }
-    }*/
-    sort( input1, input1+size1);
-    sort( input2,  input2+size2);
-    
-    int i=0,j=0;
-    while((i<size1)&&(j<size2))
-    {
-    if(input1[i]==input2[j])
-    {
-    cout<<input1[i]<<endl;
-        i++;j++;
     }
-    else if(input1[i]<input2[j])
-       i++;
-    else
-      j++;
-    
-    }
-     
 }
-
 //main function
 #include <iostream>
 #include <algorithm>
