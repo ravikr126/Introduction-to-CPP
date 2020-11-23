@@ -1,4 +1,5 @@
 /*
+
 Check Array Rotation
 Send Feedback
 You have been given an integer array/list(ARR) of size N. It has been sorted(in increasing order) and then rotated by some number 'K' in the clockwise direction.
@@ -32,6 +33,7 @@ Sample Input 2:
 Sample Output 2:
 0
 3
+
 */
 
 int arrayRotateCheck(int *input, int size)
@@ -52,7 +54,8 @@ int arrayRotateCheck(int *input, int size)
     return 0;
 }
 
-//main code
+
+// main code
 
 #include <iostream>
 using namespace std;
