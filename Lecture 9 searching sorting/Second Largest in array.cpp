@@ -55,11 +55,7 @@ int FindSecondLargest(int arr[], int n){
 
 
    int i, first_element, second_element;
-    if (n < 2)
-    {
-        cout<< " Invalid Input ";
-        
-    }
+ 
  
     first_element = second_element = INT_MIN;
     for (i = 0; i < n ; i ++)
