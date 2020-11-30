@@ -43,18 +43,29 @@ int main(){
  int row, c, n;
 
     cin>>n;
-
-  for (row = 1; row <= n; row++)  
+    row=1;
+   
+       while(row<=n) 
   {
-    for (c = 1; c <= n-row; c++)  
+           c=1;
+    
+        while(c<=n-row){
       cout<<" ";
-
+            c++;
+        }
+          c=1;
     for (c = 1; c <= 2*row - 1; c++)
+        while(c<=2*row-1){
       cout<<"*";
-
+            c++;
+        }
+    row++;
     cout<<endl;
   }
-  
 }
+
+
+
+
 
 
