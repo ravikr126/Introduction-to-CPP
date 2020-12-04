@@ -32,7 +32,7 @@ Sample Output 2:
        34543
      4567654
 ************************************************************/
-
+ 
 #include <iostream>
 using namespace std;
 
@@ -42,28 +42,37 @@ int main() {
      */
        int n , i, j, num = 1, gap; 
     cin>>n;
-    gap = n - 1; 
-  
-    for ( j = 1 ; j <= n ; j++ ) 
+    gap = n - 1;
+    j=1;
+  while(j<=n)
     { 
         num = j; 
-        for ( i = 1 ; i <= gap ; i++ ) 
-            cout << " "; 
-  
+         i=1;
+      while(i<=gap){
+           cout << " "; 
+          i++;
+      }
         gap --; 
-        for ( i = 1 ; i <= j ; i++ ) 
-        { 
+      i=1;
+      while(i<=j){
             cout << num; 
             num++; 
+            i++;
         } 
         num--; 
         num--; 
-        for ( i = 1 ; i < j ; i++) 
-        { 
+      i=1;
+      while(i<j){
             cout << num; 
             num--; 
+            i++;
         } 
         cout << endl; 
+        j++;
      
 } 
 }
+
+
+
+
