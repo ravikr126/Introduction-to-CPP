@@ -1,5 +1,4 @@
 /***************************************************************
-
 Code : Triangle of Numbers
 Send Feedback
 Print the following pattern for the given number of rows.
@@ -32,7 +31,6 @@ Sample Output 2:
          232
        34543
      4567654
-
 ************************************************************/
 
 #include <iostream>
