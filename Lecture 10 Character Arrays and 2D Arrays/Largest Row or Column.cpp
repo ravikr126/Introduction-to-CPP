@@ -52,38 +52,52 @@ column 1 342
 */
 
 
-#include <iostream> 
-using namespace std; 
+#include <bits/stdc++.h> 
+void findLargest(int arr[][1000], int row, int col){
 
-    int main ()
-    {
- 
-     int array[1000][1000];
-        int i, j, m, n, sum = 0;
-        cin>>m>>n;
-      
-        for (i = 0; i < m; ++i)
-        {
-            for (j = 0; j < n; ++j) 
-            {
-                cin>>array[i][j];
-              
-            }
+
+  /* Don't write main().
+   *  Don't read input, it is passed as function argument.
+   * Print output as specified in the question.
+   */
+	
+   int rowsum=0,colsum=0; 
+    int rowindex=0;
+    int colindex=0;
+    
+    //for col
+    for (int i = 0; i < row; i++) 
+    { 
+        int sum=0;
+		for (int j = 0; j < col; j++) 
+        { 
+           sum+=arr[i][j];
         }
- 
-       
-        for (j = 0; j < n; ++j) 
+        if(sum>rowsum)
         {
-            for (i = 0; i < m; ++i)
-            {
-                sum = sum + array[i][j];
-            }
-             cout<<sum<<" ";
-           sum = 0;
- 
+            rowsum=sum;
+            rowindex=i;
         }
- 
     }
+       for(int j=0;j<col;j++)
+       {
+           int sum=0;
+           for(int i=0;i<row;i++)
+           {
+               sum+=arr[i][j];
+           }
+           if(sum>colsum)
+           {
+               colsum=sum;
+               colindex=j;
+           }
+       }
+            if (rowsum>=colsum)
+                cout<<"row"<<" "<<rowindex<<" "<<rowsum;
+            else
+                cout<<"column"<<" "<<colindex<<" "<<colsum;
+        
+}
 
 
 // main code
