@@ -60,11 +60,11 @@ int main()
     }
     else if(grade == 'B')
     {
-        ans += 1500;
+        ans = 1500;
     }
     else
     {
-        ans += 1300;
+        ans = 1300;
     }
  
      ans = ans + basic + hra + da - pf;
