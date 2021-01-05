@@ -38,11 +38,44 @@ Sample Output 2:
 
 */
 
+//1st method
+
 // arr - input array
 // n - size of array
 #include <bits/stdc++.h> 
-using namespace std; 
+using namespace std;
 
+
+void sort012(int *arr, int n)
+{
+    //Write your code here
+    int i=0,start=0,end=n-1;
+   while(i<=end)
+    {
+        if(arr[i]==0)
+        {
+            int temp=arr[i];
+            arr[i]=arr[start];
+            arr[start]=temp;
+            start++;
+            i++;
+        }
+        else if(arr[i]==2)
+        {
+            int temp=arr[i];
+            arr[i]=arr[end];
+            arr[end]=temp;
+            end--;
+        
+            }
+       else
+           i++;
+        }
+    
+}
+
+ 
+//2nd method
 void sort012(int arr[], int n)  {  
     /* Don't write main().
      * Don't read input, it is passed as function argument.
