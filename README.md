@@ -6,6 +6,7 @@
 #### 3. <a href="https://github.com/ravikr126/Introduction-to-CPP/tree/main/Lecture%205.%20Patterns%202">Lecture 5 Patterns 2</a>
 #### 4. <a href="https://github.com/ravikr126/Introduction-to-CPP/tree/main/Lecture%206%20Operators%20and%20For%20Loop">Lecture 6 Operators and For Loop</a>
 #### 5. <a href="https://github.com/ravikr126/Introduction-to-CPP/tree/main/Lecture%207%20Functions">Lecture 7 Functions</a>
+#### 6. <a href="https://github.com/ravikr126/Introduction-to-CPP/tree/main/Lecture%208%20Arrays">Lecture 8 Array</a>
 <h2>This repository contains all basic questions for begineers</h2>
 <h1 color="blue">If you like my collection of codes .Give a star ⭐ in it.</h1>
 <br>
