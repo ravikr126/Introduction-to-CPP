@@ -8,6 +8,7 @@
 #### 5. <a href="https://github.com/ravikr126/Introduction-to-CPP/tree/main/Lecture%207%20Functions">Lecture 7 Functions</a>
 #### 6. <a href="https://github.com/ravikr126/Introduction-to-CPP/tree/main/Lecture%208%20Arrays">Lecture 8 Array</a>
 #### 7. <a href="https://github.com/ravikr126/Introduction-to-CPP/tree/main/Lecture%209%20searching%20sorting">Lecture 9 searching sorting</a>
+#### 8. <a href="https://github.com/ravikr126/Introduction-to-CPP/tree/main/Lecture%2010%20Character%20Arrays%20and%202D%20Arrays">Lecture 10. Character array and array</a>
 <h2>This repository contains all basic questions for begineers</h2>
 <h1 color="blue">If you like my collection of codes .Give a star ⭐ in it.</h1>
 <br>
