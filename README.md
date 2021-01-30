@@ -1,4 +1,4 @@
-# Introduction-to-C-
+# Introduction-To-C
 
 # INDEX OF FOLDERS
 #### 1. <a href="https://github.com/ravikr126/Introduction-to-CPP/tree/main/Lecture%203%20Conditionals%20and%20Loops">Lecture 3 Conditionals and Loops</a>
