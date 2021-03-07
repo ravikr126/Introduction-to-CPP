@@ -12,7 +12,7 @@
 #### 8. <a href="https://github.com/ravikr126/Introduction-to-CPP/tree/main/Lecture%2010%20Character%20Arrays%20and%202D%20Arrays">Lecture 10. Character array and array</a>
   
 <h2>This repository contains all basic questions for begineers</h2>
-<h1>If you like my collection of codes .Give a star ⭐ in it.</h1>
+<h1>If you like my collection of codes .Give a star ⭐ in it 😊.</h1>
 <br>
 <div><p><h3>If you like to contribute in this repository Feel free to contribute it</h3></p></div>
 
